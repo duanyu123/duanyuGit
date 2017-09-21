@@ -1,0 +1,22 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.example.anadministrator.monthprepar.View.CustomHeaderView
+        android:id="@+id/custom"
+        android:layout_alignParentTop="true"
+        custom:titleText="圈子"
+        custom:titleTextColor="@android:color/black"
+        custom:titleBgColor="#34CC99"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/custom"
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
