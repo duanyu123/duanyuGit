@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "F:\\Android5\\Baiduditu9_6Demo\\baiduDemon\\build\\intermediates\\res\\merged\\debug\\layout\\activity_location.xml",
+        "source": "F:\\Android5\\Baiduditu9_6Demo\\baiduDemon\\src\\main\\res\\layout\\activity_location.xml"
+    },
+    {
+        "merged": "F:\\Android5\\Baiduditu9_6Demo\\baiduDemon\\build\\intermediates\\res\\merged\\debug\\layout\\locationconfig.xml",
+        "source": "F:\\Android5\\Baiduditu9_6Demo\\baiduDemon\\src\\main\\res\\layout\\locationconfig.xml"
+    },
+    {
+        "merged": "F:\\Android5\\Baiduditu9_6Demo\\baiduDemon\\build\\intermediates\\res\\merged\\debug\\layout\\location.xml",
+        "source": "F:\\Android5\\Baiduditu9_6Demo\\baiduDemon\\src\\main\\res\\layout\\location.xml"
+    },
+    {
+        "merged": "F:\\Android5\\Baiduditu9_6Demo\\baiduDemon\\build\\intermediates\\res\\merged\\debug\\layout\\hotwifi.xml",
+        "source": "F:\\Android5\\Baiduditu9_6Demo\\baiduDemon\\src\\main\\res\\layout\\hotwifi.xml"
+    },
+    {
+        "merged": "F:\\Android5\\Baiduditu9_6Demo\\baiduDemon\\build\\intermediates\\res\\merged\\debug\\layout\\autonotifyconfig.xml",
+        "source": "F:\\Android5\\Baiduditu9_6Demo\\baiduDemon\\src\\main\\res\\layout\\autonotifyconfig.xml"
+    },
+    {
+        "merged": "F:\\Android5\\Baiduditu9_6Demo\\baiduDemon\\build\\intermediates\\res\\merged\\debug\\layout\\locationfilter.xml",
+        "source": "F:\\Android5\\Baiduditu9_6Demo\\baiduDemon\\src\\main\\res\\layout\\locationfilter.xml"
+    },
+    {
+        "merged": "F:\\Android5\\Baiduditu9_6Demo\\baiduDemon\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "F:\\Android5\\Baiduditu9_6Demo\\baiduDemon\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\Android5\\Baiduditu9_6Demo\\baiduDemon\\build\\intermediates\\res\\merged\\debug\\layout\\quest_activity.xml",
+        "source": "F:\\Android5\\Baiduditu9_6Demo\\baiduDemon\\src\\main\\res\\layout\\quest_activity.xml"
+    },
+    {
+        "merged": "F:\\Android5\\Baiduditu9_6Demo\\baiduDemon\\build\\intermediates\\res\\merged\\debug\\layout\\locationalarm.xml",
+        "source": "F:\\Android5\\Baiduditu9_6Demo\\baiduDemon\\src\\main\\res\\layout\\locationalarm.xml"
+    },
+    {
+        "merged": "F:\\Android5\\Baiduditu9_6Demo\\baiduDemon\\build\\intermediates\\res\\merged\\debug\\layout\\notify.xml",
+        "source": "F:\\Android5\\Baiduditu9_6Demo\\baiduDemon\\src\\main\\res\\layout\\notify.xml"
+    },
+    {
+        "merged": "F:\\Android5\\Baiduditu9_6Demo\\baiduDemon\\build\\intermediates\\res\\merged\\debug\\layout\\function_list.xml",
+        "source": "F:\\Android5\\Baiduditu9_6Demo\\baiduDemon\\src\\main\\res\\layout\\function_list.xml"
+    }
+]

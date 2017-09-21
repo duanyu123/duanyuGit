@@ -1,0 +1,7 @@
+#Fri Sep 15 13:51:21 CST 2017
+base.0=F\:\\Android5\\Baiduditu9_6Demo\\baiduDemon\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_8a5b9823d6e8dc15626be391d5f4b30df6b2c469
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=F\:\\Android5\\Baiduditu9_6Demo\\baiduDemon\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e97e9358b760e5dedfd2d1f573b40ea3709dfd31\\classes.dex
+base.1=F\:\\Android5\\Baiduditu9_6Demo\\baiduDemon\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e97e9358b760e5dedfd2d1f573b40ea3709dfd31
+file.0=F\:\\Android5\\Baiduditu9_6Demo\\baiduDemon\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_8a5b9823d6e8dc15626be391d5f4b30df6b2c469\\classes.dex
