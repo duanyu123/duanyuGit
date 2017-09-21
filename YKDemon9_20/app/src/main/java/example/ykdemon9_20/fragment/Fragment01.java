@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import com.google.gson.Gson;
 
@@ -23,7 +24,7 @@ import example.ykdemon9_20.utils.OKhttpManager;
  * Created by 段昱 on 2017/9/20.
  */
 
-public class Fragment01 extends Fragment {
+public class Fragment01 extends Fragment implements MyAdapter.MyItemclickListener{
 
     private String json_path = "http://139.196.140.118:8080/get/%7B%22%5B%5D%22:%7B%22page%22:0,%22count%22:10,%22Moment%22:%7B%22content$%22:%22%2525a%2525%22%7D,%22User%22:%7B%22id@%22:%22%252FMoment%252FuserId%22,%22@column%22:%22id,name,head%22%7D,%22Comment%5B%5D%22:%7B%22count%22:2,%22Comment%22:%7B%22momentId@%22:%22%5B%5D%252FMoment%252Fid%22%7D%7D%7D%7D";
     //        使用封装后的OKhttp,所定义的成员变量
@@ -38,10 +39,19 @@ public class Fragment01 extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.frgmt, container, false);
         recyclerView = v.findViewById(R.id.recyclerView);
+        Button button=v.findViewById(R.id.but);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Object o=null;
+             System.out.print(o.toString());
+            }
+        });
         MyUtils.isNetworkAvailable(getActivity());
         initData();
         return v;
     }
+
 
     private void initData() {
         instance = OKhttpManager.getInstance();
@@ -77,4 +87,10 @@ public class Fragment01 extends Fragment {
             adapter.notifyDataSetChanged();
         }
     }
+
+    @Override
+    public void itemclick(View view, int position) {
+
+    }
+
 }

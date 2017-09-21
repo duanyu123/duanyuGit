@@ -16,7 +16,7 @@ import example.ykdemon9_20.fragment.Fragment01;
 import example.ykdemon9_20.fragment.Fragment02;
 import example.ykdemon9_20.fragment.Fragment03;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity  {
     private ViewPager viewPager;
     private List<Fragment> list = new ArrayList<>();
 
@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initViewPager() {
         //搭建适配器
-        pagerAdapter adapter =new pagerAdapter(getSupportFragmentManager(),list);
+        pagerAdapter adapter = new pagerAdapter(getSupportFragmentManager(), list);
         viewPager.setAdapter(adapter);
     }
 
